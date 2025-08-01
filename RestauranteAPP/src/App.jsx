@@ -1,4 +1,4 @@
-import {BrowserRouter ,Routes, Route} from 'react-router' 
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Productlist from './components/Productlist';
 import ProductForm from './components/ProductForm';
 import Header from './components/Header';
@@ -7,7 +7,6 @@ import Menu_form from './components/Menu_form';
 import Mesero from "./components/MeseroViite";
 import Login from './components/Login';
 import Caja from './components/Caja';
-import { useLocation } from 'react-router-dom';
 
 function App() {
   const location = useLocation();
@@ -32,8 +31,8 @@ function App() {
 
 export default function AppWrapper() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
