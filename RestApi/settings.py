@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'RestApi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'restauranteapi',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',   
+        'NAME': 'bgajelroszzn4ycsnwbi',
+        'USER': 'u7cqmdrf0c86fzlg',
+        'PASSWORD': 'h8mpQr0Ko9nCuptTXOfa',
+        'HOST': 'bgajelroszzn4ycsnwbi-mysql.services.clever-cloud.com',   
         'PORT': '3306',
     }
 }
@@ -129,6 +129,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
 CORS_ALLOWED_ORIGINS = [
